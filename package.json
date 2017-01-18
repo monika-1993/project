@@ -1,0 +1,22 @@
+{
+  "name": "myapp",
+  "version": "0.0.0",
+  "description": "TestApp",
+  "main": "index.js",
+  "scripts": {
+    "test": "run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monika-1993/project.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Monika Jaiswal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monika-1993/project/issues"
+  },
+  "homepage": "https://github.com/monika-1993/project#readme"
+}
