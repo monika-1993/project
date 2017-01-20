@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/monika-1993/project/issues"
   },
-  "homepage": "https://github.com/monika-1993/project#readme"
+  "homepage": "https://github.com/monika-1993/project#readme",
+  "dependencies": {
+    "angular": "^1.6.1"
+  }
 }
