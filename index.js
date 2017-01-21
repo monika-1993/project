@@ -2,6 +2,7 @@ var flock = require('flockos');
 var config = require('./config.js');
 var express = require('express');
 var fs = require('fs');
+var angular=require('angular');
 
 flock.setAppId(config.appId);
 flock.setAppSecret(config.appSecret);
@@ -31,7 +32,7 @@ flock.events.on('app.uninstall', function (event) {
 });
 
 // Start the listener after reading the port from config
-var port = config.port || 5000;
+var port = config.port || 6000;
 app.listen(port, function () {
   console.log('Listening on port: ' + port);
 });
@@ -45,7 +46,7 @@ process.on('exit', function () {
 // var express = require('express');
 // var app = express();
 //
-app.set('port', (process.env.PORT || 5000));
+app.set('port', (process.env.PORT || 6000));
 
 app.use(express.static(__dirname + '/public'));
 
