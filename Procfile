@@ -1,1 +1,1 @@
-web: node index.js -p $PORT
+web: node app.js -p $PORT
