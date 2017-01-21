@@ -1,7 +1,7 @@
 /**
  * Created by monika on 19/1/17.
  */
-import angular from "angular";
+// import angular from "angular";
 // import "angular-animate";
 // import "angular-material";
 
