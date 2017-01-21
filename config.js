@@ -2,8 +2,8 @@
  * Created by monika on 19/1/17.
  */
 import angular from "angular";
-import "angular-animate";
-import "angular-material";
+// import "angular-animate";
+// import "angular-material";
 
 // const app = angular.module('app', ['ngMaterial','ngAnimate']);
 // app
