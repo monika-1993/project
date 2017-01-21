@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/monika-1993/project#readme",
   "dependencies": {
-    "angular": "^1.6.1"
+    "angular": "^1.6.1",
+    "pg": "^6.1.2"
   }
 }
