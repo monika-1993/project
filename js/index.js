@@ -1,5 +1,5 @@
 
-angular.module('ereignis', [])
+angular.module('app', [])
     .controller('ereignisController', ($scope, $http) => {
         $scope.text="Hello world";
         $scope.formData = {};

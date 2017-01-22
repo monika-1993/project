@@ -50,7 +50,7 @@ process.on('exit', function () {
 //
 app.set('port', (process.env.PORT || 6000));
 
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/'));
 
 // views is directory for all template files
 app.set('views', __dirname + '/views');
