@@ -1,7 +1,14 @@
 <!DOCTYPE html>
-<h1>Welcome to my app </h1>
-<a> <h4 class=" collapsed panel-title" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseTwo">
-        Create an event   <span class="arrowicon">&#x2795;</span>
-    </h4>
-</a>
-<input class="searchpart"  type="search" placeholder="Search for Events" name="googlesearch" ng-model="$aggHomeCtrl.text" my-enter="$aggHomeCtrl.search($aggHomeCtrl.text)">
+<html ng-app="ereignis">
+<body ng-controller="ereignisController">
+    <h1>Welcome to my app </h1>
+    <a> <h4 class=" collapsed panel-title" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseTwo">
+            Create an event   <span class="arrowicon">&#x2795;</span>
+        </h4>
+    </a>
+    <input class="searchpart"  type="search" placeholder="Search for Events" name="googlesearch" ng-model="$aggHomeCtrl.text" my-enter="$aggHomeCtrl.search($aggHomeCtrl.text)">
+    <p>{{text}}</p>
+    <script src="../../node_modules/angular/angular.js"></script>
+    <script src="../../javascript/index.js"></script>
+</body>
+</html>

@@ -3,6 +3,7 @@ var config = require('./config.js');
 var express = require('express');
 var fs = require('fs');
 const pg = require('pg');
+var angular=require('angular');
 
 flock.setAppId(config.appId);
 flock.setAppSecret(config.appSecret);
@@ -33,7 +34,7 @@ flock.events.on('app.uninstall', function (event) {
 });
 
 // Start the listener after reading the port from config
-var port = config.port || 5000;
+var port = config.port || 6000;
 app.listen(port, function () {
   console.log('Listening on port: ' + port);
 });
@@ -47,7 +48,7 @@ process.on('exit', function () {
 // var express = require('express');
 // var app = express();
 //
-app.set('port', (process.env.PORT || 5000));
+app.set('port', (process.env.PORT || 6000));
 
 app.use(express.static(__dirname + '/public'));
 
@@ -58,7 +59,7 @@ app.set('view engine', 'ejs');
 // app.set('view engine', 'html');
 
 app.get('/', function(request, response) {
-  response.render('pages/index');
+  response.render('pages/index.html');
 });
 // app.get('/home', function(request, response) {
 //   response.render('pages/home');
@@ -79,3 +80,5 @@ app.get('/db', function (request, response) {
     });
   });
 });
+
+module.exports = app;
