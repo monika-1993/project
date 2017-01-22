@@ -3,7 +3,7 @@ var config = require('./config.js');
 var express = require('express');
 var fs = require('fs');
 const pg = require('pg');
-var angular=require('angular');
+//var angular=require('angular');
 
 flock.setAppId(config.appId);
 flock.setAppSecret(config.appSecret);
