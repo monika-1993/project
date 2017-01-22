@@ -1,4 +1,3 @@
-import angular from 'angular';
 angular.module('ereignis', [])
     .controller('ereignisController', ($scope, $http) => {
         $scope.text="Hello world";
